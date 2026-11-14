@@ -1,0 +1,48 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local Environment & Secrets
+.env
+.env.local
+
+# Operating System & Temporary Artifacts
+.DS_Store
+Thumbs.db
+*.bak
+*.old
+*.tmp
+*.swp
+
+# Compressed Archives
+*.zip
+*.tar.gz
+
+# Frontend & Build Outputs
+node_modules/
+dist/
+build/
+
+# Project Data & Models (Preserve directory structure and pre-trained models for deployment)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+!models/*.joblib
+!models/*.json
+reports/*
+!reports/.gitkeep
+!reports/*.json

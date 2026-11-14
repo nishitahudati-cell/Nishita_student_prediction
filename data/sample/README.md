@@ -1,0 +1,1 @@
+Synthetic development fixtures belong here. They are not real student records and must never be presented as real-world evidence. Run `python scripts/generate_sample_data.py` to create the optional fixture.
